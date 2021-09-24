@@ -66,7 +66,8 @@ class _HistoryStateState extends State<HistoryState> {
                           ),
                           onPressed: () {
                             StoreProvider.of<AppState>(context).dispatch(
-                                RemoveRequestFromHistoryAction(index),);
+                              RemoveRequestFromHistoryAction(index),
+                            );
                           },
                         ),
                       ],

@@ -37,4 +37,3 @@ AppState clearHistorySearchReducer(
   ClearHistorySearchAction _,
 ) =>
     state.copyWith(searchState: const SearchLoadingState());
-

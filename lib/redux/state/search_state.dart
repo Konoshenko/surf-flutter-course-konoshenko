@@ -23,5 +23,3 @@ class SearchResultHistoryState extends SearchState {
 
   const SearchResultHistoryState(this.result);
 }
-
-

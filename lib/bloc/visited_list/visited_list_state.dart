@@ -1,6 +1,5 @@
 part of 'visited_list_bloc.dart';
 
-
 @immutable
 abstract class VisitedListState extends Equatable {}
 

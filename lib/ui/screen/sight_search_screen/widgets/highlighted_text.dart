@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class HighlightedText extends StatelessWidget {
   final String text;
   final String matcher;
@@ -39,7 +38,7 @@ class HighlightedText extends StatelessWidget {
         .split(' ')
         .expand((word) => word.allMatches(source.toLowerCase()))
         .toList()
-          ..sort((a, b) => a.start.compareTo(b.start));
+      ..sort((a, b) => a.start.compareTo(b.start));
 
     if (matches.isEmpty) {
       return [];

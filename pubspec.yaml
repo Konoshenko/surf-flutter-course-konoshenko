@@ -16,6 +16,7 @@ dependencies:
   flutter_svg: ^0.21.0+1
   provider: ^5.0.0
   mobx: ^2.0.4
+  mwwm: ^2.0.0
   mobx_codegen: 2.0.0
   redux: ^5.0.0
   flutter_redux: ^0.8.2

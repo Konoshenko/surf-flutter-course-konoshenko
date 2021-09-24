@@ -38,7 +38,6 @@ class PlaceInteractor {
     return favorites;
   }
 
-
   Future<List<Place>> getVisitPlaces() async {
     return visit;
   }

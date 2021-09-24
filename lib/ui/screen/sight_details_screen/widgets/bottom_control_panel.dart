@@ -71,10 +71,7 @@ class BottomControlPanelState extends State<BottomControlPanel> {
                         .favorites
                         .remove(widget.sight);
                   } else {
-                    context
-                        .read<PlaceRepository>()
-                        .favorites
-                        .add(widget.sight);
+                    context.read<PlaceRepository>().favorites.add(widget.sight);
                   }
 
                   Navigator.pop(context);

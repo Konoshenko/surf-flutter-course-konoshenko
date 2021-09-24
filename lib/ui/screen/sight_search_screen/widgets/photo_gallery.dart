@@ -3,7 +3,7 @@ import 'package:places/ui/components/add_signt_screen/add_photo_dialog.dart';
 import 'package:places/ui/components/add_signt_screen/components.dart';
 
 class PhotoGallery extends StatefulWidget {
-  final List<String> images;
+  final Set<String> images;
 
   const PhotoGallery(this.images, {Key? key}) : super(key: key);
 

@@ -7,7 +7,7 @@ class GetSearchResultAction extends SearchAction {
   final String search;
   final RangeValues range;
 
-  GetSearchResultAction({required this.search,required this.range});
+  GetSearchResultAction({required this.search, required this.range});
 }
 
 class LoadedSearchResultAction extends SearchAction {

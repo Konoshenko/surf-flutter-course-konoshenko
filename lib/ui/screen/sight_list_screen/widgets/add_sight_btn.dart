@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:places/res/res.dart';
-import 'package:places/ui/screen/add_sight_screen.dart';
+import 'package:places/ui/screen/add_sight/add_sight_screen/add_sight_screen.dart';
 
 class AddSightBtn extends StatelessWidget {
   const AddSightBtn({
